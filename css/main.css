@@ -1,0 +1,162 @@
+/* main.css */
+
+/* Глобальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4, h5 {
+    color: #000000;
+}
+
+/* Стилі заголовка */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Стилі для бокового меню */
+.offcanvas-body {
+    background-color: #ffffff;
+}
+
+/* Рядок з назвою магазину */
+.shot-title-row {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.shop-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.shop-phones, .shop-adress {
+    font-size: 1.1rem;
+}
+
+/* Основні стилі */
+.conteiner {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row-cols-1 {
+    margin-top: 20px;
+}
+
+.shop-category {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.shop-category:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Стилі для кнопок */
+.btn-outline-secondary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Стилі для підвалу */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.shot-copyright {
+    font-size: 0.9rem;
+}
+
+/* Медійні запити */
+@media (max-width: 768px) {
+    .shot-title {
+        font-size: 2rem;
+    }
+}
+ main {
+  min-height: 100vh !important;
+ }
+ .breadcrumb-item a {
+    text-decoration: none; /* Прибирає підкреслення */
+    font-weight: bold; /* Робить шрифт жирним */
+    color: #000000; /* Основний колір для посилань */
+    transition: color 0.2s; /* Плавний перехід кольору */
+}
+
+.breadcrumb-item a:hover {
+    color: #0077ff; /* Темніший відтінок на наведення */
+}
+
+.breadcrumb-item.active {
+    color: #6c757d; /* Колір для активного елемента */
+}
+header {
+    background-color: #f8f9fa; /* Легкий фон для заголовка */
+    padding: 15px 0; /* Відступи для заголовка */
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тінь для навігації */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Розмір шрифту для логотипу */
+    font-weight: bold; /* Жирний шрифт для логотипу */
+}
+
+.nav-link {
+    font-weight: 600; /* Жирний шрифт для посилань */
+    color: #000; /* Колір тексту посилань */
+    transition: color 0.3s; /* Плавний перехід кольору */
+}
+
+.nav-link:hover {
+    color: #007bff; /* Колір посилань при наведенні */
+}
+
+.shot-title {
+    font-size: 36px; /* Розмір шрифту для заголовка */
+    font-weight: bold; /* Жирний шрифт */
+    margin-bottom: 10px; /* Відступи знизу */
+}
+
+.shop-phones, .shop-adress {
+    color: #555; /* Темніший колір для телефонів та адреси */
+}
